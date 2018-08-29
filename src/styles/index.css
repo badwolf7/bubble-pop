@@ -1,0 +1,33 @@
+/**
+ * Global or section wide styles.
+ * (Follow BEM conventions for section styles)
+ * http://getbem.com/introduction/
+ */
+
+html {
+  color: #030303;
+  font-family: 'Helvetica Neue', Helvetica, Verdana, Geneva, Tahoma, Arial, sans-serif;
+  font-size: 14px;
+}
+
+* {
+  -moz-osx-font-smoothing: grayscale !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body {
+  background-color: #F7F7F7;
+  color: #030303;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}

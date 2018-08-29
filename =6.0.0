@@ -1,0 +1,23 @@
+yarn add v1.6.0
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+success Saved lockfile.
+success Saved 9 new dependencies.
+info Direct dependencies
+├─ eslint-plugin-import@2.14.0
+├─ eslint-plugin-jsx-a11y@6.1.1
+├─ eslint-plugin-react@7.11.1
+└─ eslint@4.19.1
+info All dependencies
+├─ aria-query@3.0.0
+├─ axobject-query@2.0.1
+├─ eslint-plugin-import@2.14.0
+├─ eslint-plugin-jsx-a11y@6.1.1
+├─ eslint-plugin-react@7.11.1
+├─ eslint-visitor-keys@1.0.0
+├─ eslint@4.19.1
+├─ json-stable-stringify-without-jsonify@1.0.1
+└─ regexpp@1.1.0
+Done in 9.51s.

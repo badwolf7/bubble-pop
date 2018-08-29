@@ -1,0 +1,48 @@
+{
+  "processors": [
+    "stylelint-processor-styled-components"
+  ],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-styled-components"
+  ],
+  "plugins": [
+    "stylelint-order"
+  ],
+  "syntax": "scss",
+  "rules": {
+    "color-no-invalid-hex": true,
+    "comment-empty-line-before": [ "always", {
+      "ignore": ["stylelint-commands", "after-comment"]
+    }],
+    "declaration-colon-space-after": "always",
+    "indentation": [2, {
+      "except": ["value"]
+    }],
+    "max-empty-lines": 2,
+    "rule-empty-line-before": [ "always", {
+      "except": ["first-nested"],
+      "ignore": ["after-comment"]
+    }],
+
+    "order/properties-alphabetical-order": true,
+    "order/order": [
+      [
+        "custom-properties",
+        "at-variables",
+        "declarations",
+        "rules",
+        "dollar-variables",
+        "less-mixins",
+        {
+          "type": "rule",
+          "selector": "^(\\${)"
+        },
+        "at-rules"
+      ],
+      {
+        "disableFix": true
+      }
+    ]
+  }
+}

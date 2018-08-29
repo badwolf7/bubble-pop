@@ -1,0 +1,67 @@
+
+/**
+ * General purpose classes that do minor things should be placed here
+ * See BEM for CSS organization guidelines:
+ * http://getbem.com/introduction/
+ */
+
+.utils--inline-block {
+  display: inline-block;
+}
+
+/**
+ * Floats
+ */
+.utils--float-right {
+  float: right;
+}
+
+.utils--float-left {
+  float: left;
+}
+
+.utils--align-left {
+  text-align: left;
+}
+
+.utils--align-center {
+  text-align: center;
+}
+
+.utils--align-right {
+  text-align: right;
+}
+
+.utils--display-none {
+  display: none;
+}
+
+/**
+ * Clears
+ */
+.utils--clear-left {
+  clear: left;
+}
+
+.utils--clear-right {
+  clear: right
+}
+
+/**
+ * https://css-tricks.com/snippets/css/clear-fix/
+ */
+.utils--clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+/**
+ * Other
+ */
+.utils--truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
